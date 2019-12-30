@@ -1,3 +1,5 @@
+Get your Pi online, exit EmulationStation, then:
+
 `cd ~`
 
 `git clone https://github.com/willy-electrix/virtualman400-fixes.git fixes`
