@@ -12,7 +12,7 @@ First, get your Pi online & exit EmulationStation.
 
 `chmod +x *.sh`
 
-Run all fixes:
+Then run all fixes:
 
 `./00-all-fixes.sh`
 
@@ -46,4 +46,4 @@ These are currently in flux. Run fix 3 again to get the latest versions (also a 
 
 `~/fixes/03-clean-gamelists.sh`
 
-See changes at https://github.com/willy-electrix/virtualman400-gamelists.
+See the changes at https://github.com/willy-electrix/virtualman400-gamelists.
