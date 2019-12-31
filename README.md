@@ -32,7 +32,7 @@ etc.
 
 `chmod +x *.sh`
 
-Then manually run the new fixes:
+Then run the new fixes:
 
 `./##-a-new-fix.sh`
 
