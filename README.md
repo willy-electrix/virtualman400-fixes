@@ -2,7 +2,7 @@
 
 First, get your Pi online & exit EmulationStation.
 
-## Install
+## Install & run fixes
 
 `cd ~`
 
@@ -12,9 +12,19 @@ First, get your Pi online & exit EmulationStation.
 
 `chmod +x *.sh`
 
+Then run all fixes:
+
 `./00-all-fixes.sh`
 
-## Update
+Or run them individually:
+
+`./01-fix-mp.sh`
+
+`./02-clean-nes.sh`
+
+etc.
+
+## Update & run new fixes
 
 `cd ~/fixes`
 
@@ -22,14 +32,18 @@ First, get your Pi online & exit EmulationStation.
 
 `chmod +x *.sh`
 
-Then manually run the new fixes:
+Then run the new fixes:
 
 `./##-a-new-fix.sh`
 
 `./##-another-new-fix.sh`
 
-## Update game lists (fix #3)
+etc.
 
-So far, only the retropie ("Options") gamelist.xml has been cleaned. This prevents EmulationStation from crashing at startup when "parse gamelists only" is on. But more cleaning is coming very soon (the goal being to have the same game count whether the option is on or off). Until stable, you can run fix 3 again to get the latest versions (also a handy way to reset play count):
+## Game/collection lists (fix #3)
+
+These are currently in flux. Run fix 3 again to get the latest versions (also a handy way to reset play count):
 
 `~/fixes/03-clean-gamelists.sh`
+
+See the changes at https://github.com/willy-electrix/virtualman400-gamelists.
