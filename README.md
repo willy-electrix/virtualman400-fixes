@@ -50,6 +50,8 @@ See the changes at https://github.com/willy-electrix/virtualman400-gamelists.
 
 ## Update settings (fix #4)
 
-Same as fix 3, these are also in flux.
+Same as fix 3, these are also in flux. Run fix 4 again for the latest:
+
+`~/fixes/04-update-settings.sh`
 
 See the changes at https://github.com/willy-electrix/virtualman400-settings.
