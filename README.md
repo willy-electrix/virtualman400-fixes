@@ -22,7 +22,9 @@ Or run them individually:
 
 `./02-clean-nes.sh`
 
-etc.
+etc. Then reboot.
+
+`sudo reboot`
 
 ## Update & run new fixes
 
@@ -38,7 +40,9 @@ Then run the new fixes:
 
 `./##-another-new-fix.sh`
 
-etc.
+etc. Then reboot.
+
+`sudo reboot`
 
 ## Game/collection lists (fix #3)
 
