@@ -26,7 +26,7 @@ etc. Then reboot.
 
 `sudo reboot`
 
-## Update & run new fixes
+## Get & run new fixes
 
 `cd ~/fixes`
 
