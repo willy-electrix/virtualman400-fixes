@@ -44,6 +44,16 @@ etc. Then reboot.
 
 `sudo reboot`
 
+## Optional
+
+If you know you'll be playing Daphne, you can bring in all the .DAT files in one fell swoop:
+
+`~/fixes/daphne-dat-get.sh`
+
+If they cause a problem, or just to clean them up:
+
+`~/fixes/daphne-dat-clear.sh`
+
 ## Game/collection lists (fix #3)
 
 These are currently in flux. Run fix 3 again to get the latest versions (also a handy way to reset play count):
