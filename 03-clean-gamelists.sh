@@ -1,11 +1,6 @@
 #!/bin/bash
-
-echo " fix 3 - clean gamelist.xml files"
-
-DIR=$(cd `dirname $0` && pwd)
-
+printf "\n fix 3 - get latest game & collection lists\n\n"
 cd /
-
 rm -rf .git
 git init
 git remote add origin https://github.com/willy-electrix/virtualman400-gamelists.git
@@ -20,5 +15,4 @@ rm -rf .git
 rm .gitignore
 rm README.md
 
-cd $DIR
-echo " fix 3 - done"
+printf "\n fix 3 - done\n\n"
