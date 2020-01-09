@@ -80,4 +80,4 @@ If you've heavily customized things and are now having regrets, or you're having
 
 - Run only as pi, don't sudo these scripts
 - The scripts *should* already be executable, but if needed: `chmod +x *.sh`
-- You can usually just run EmulationStation again after doing any of these things, but I recommend to always `sudo reboot`
+- You can usually just run EmulationStation again after running these fixes/scripts, but I recommend to always `sudo reboot` for good measure
