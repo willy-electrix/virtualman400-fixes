@@ -1,5 +1,9 @@
 # virtualman400-fixes
 
+> Post-fixes, tweaks, and other tools for VirtualMan's 400GB PlayBox 4.4.5.3 "Retro-Bliss-Tweak" image.
+
+---
+
 First, get your Pi online & exit EmulationStation.
 
 ## Install & run fixes
@@ -80,4 +84,4 @@ If you've heavily customized things and are now having regrets, or you're having
 
 - Run only as pi, don't sudo these scripts
 - The scripts *should* already be executable, but if needed: `chmod +x *.sh`
-- You can usually just run EmulationStation again after running these fixes/scripts, but I recommend to always `sudo reboot` for good measure
+- You can usually just run EmulationStation again after running these scripts, but I recommend to always `sudo reboot` when finished for good measure
