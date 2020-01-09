@@ -59,3 +59,25 @@ Same as fix 3, these are also in flux. Run fix 4 again for the latest versions:
 Please note, any custom changes to config files that have been added or updated since the original release (via fix 4) will be lost.
 
 History: https://github.com/willy-electrix/virtualman400-settings/commits/master
+
+## Experimental
+
+### Last resort settings reset
+
+If you've heavily customized things and are now having regrets, or you're having a settings-related problem that you can't figure out, and you're at the point of re-burning the image to start over, first you can try...
+
+`cd ~/fixes`
+
+`./cfg-reset.sh`
+
+`./04-update-settings.sh`
+
+`sudo reboot`
+
+... and that *may* get you back on track.
+
+## Notes
+
+- Run only as pi, don't sudo the fixes
+- The scripts *should* already be executable, but if needed: `chmod +x *.sh`
+- You can usually just run EmulationStation again after doing any of these things, but I recommend to always `sudo reboot`
