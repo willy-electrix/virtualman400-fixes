@@ -38,16 +38,20 @@ If they cause a problem, or just to clean them up:
 
 ## Game/collection lists (fix #3)
 
-These are currently in flux. Run fix 3 again to get the latest versions (also a handy way to reset play count):
+These are currently in flux. Run fix 3 again to get the latest versions:
 
 `~/fixes/03-clean-gamelists.sh`
 
-See the changes at https://github.com/willy-electrix/virtualman400-gamelists.
+Please note, this will reset your play count, favorites, and any other custom changes you've made to game/collection lists.
+
+History: https://github.com/willy-electrix/virtualman400-gamelists/commits/master.
 
 ## Update settings (fix #4)
 
-Same as fix 3, these are also in flux. Run fix 4 again for the latest:
+Same as fix 3, these are also in flux. Run fix 4 again for the latest versions:
 
 `~/fixes/04-update-settings.sh`
 
-See the changes at https://github.com/willy-electrix/virtualman400-settings.
+Please note, any custom changes you've made to new/updated (from stock) config files will be lost.
+
+History: https://github.com/willy-electrix/virtualman400-settings/commits/master.
