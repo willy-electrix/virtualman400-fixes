@@ -28,6 +28,8 @@ First, get your Pi online & exit EmulationStation.
 
 ## Optional
 
+### Daphne .DATs
+
 If you know you'll be playing Daphne, you can bring in all the .DAT files in one fell swoop:
 
 `~/fixes/daphne-dat-get.sh`
@@ -36,7 +38,9 @@ If they cause a problem, or just to clean them up:
 
 `~/fixes/daphne-dat-clear.sh`
 
-## On-going: game/collection lists
+## On-going
+
+### Game/collection lists
 
 These are currently in flux. Run fix 3 again to get the latest versions:
 
@@ -46,7 +50,7 @@ Please note, this will reset your play count, favorites, and any other custom ch
 
 History: https://github.com/willy-electrix/virtualman400-gamelists/commits/master
 
-## On-going: update settings
+### Settings
 
 Same as fix 3, these are also in flux. Run fix 4 again for the latest versions:
 
