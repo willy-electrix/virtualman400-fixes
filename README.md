@@ -36,7 +36,7 @@ If they cause a problem, or just to clean them up:
 
 `~/fixes/daphne-dat-clear.sh`
 
-## Game/collection lists (fix #3)
+## On-going: game/collection lists
 
 These are currently in flux. Run fix 3 again to get the latest versions:
 
@@ -44,14 +44,14 @@ These are currently in flux. Run fix 3 again to get the latest versions:
 
 Please note, this will reset your play count, favorites, and any other custom changes you've made to game/collection lists.
 
-History: https://github.com/willy-electrix/virtualman400-gamelists/commits/master.
+History: https://github.com/willy-electrix/virtualman400-gamelists/commits/master
 
-## Update settings (fix #4)
+## On-going: update settings
 
 Same as fix 3, these are also in flux. Run fix 4 again for the latest versions:
 
 `~/fixes/04-update-settings.sh`
 
-Please note, any custom changes you've made to new/updated (from stock) config files will be lost.
+Please note, any custom changes to config files that have been added or updated since the original release (via fix 4) will be lost.
 
-History: https://github.com/willy-electrix/virtualman400-settings/commits/master.
+History: https://github.com/willy-electrix/virtualman400-settings/commits/master
