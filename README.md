@@ -10,19 +10,7 @@ First, get your Pi online & exit EmulationStation.
 
 `cd fixes`
 
-`chmod +x *.sh`
-
-Then run all fixes:
-
 `./00-all-fixes.sh`
-
-Or run them individually:
-
-`./01-fix-mp.sh`
-
-`./02-clean-nes.sh`
-
-etc. Then reboot.
 
 `sudo reboot`
 
@@ -32,15 +20,9 @@ etc. Then reboot.
 
 `git pull`
 
-`chmod +x *.sh`
-
-Then run the new fixes:
-
 `./##-a-new-fix.sh`
 
 `./##-another-new-fix.sh`
-
-etc. Then reboot.
 
 `sudo reboot`
 
