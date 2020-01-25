@@ -8,7 +8,7 @@ fi
 cd /
 rm -rf .git
 git init
-git remote add origin https://github.com/willy-electrix/virtualman400-allconfigs.git
+git remote add origin https://github.com/willy-electrix/virtualman400-configs-original.git
 git fetch --all
 git reset --hard origin/master
 rm -rf .git
