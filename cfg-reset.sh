@@ -1,5 +1,5 @@
 #!/bin/bash
-printf "\n - resetting all .CFG files to stock (experimental)\n\n"
+printf "\n - resetting all config files to stock (experimental)\n\n"
 read -p "   Are you sure? (y/n) " -n 1 -r
 printf "\n\n"
 if [[ ! $REPLY =~ ^[Yy]$ ]]
